@@ -1,0 +1,12 @@
+export { default as Rectangle1 } from './Rectangle1.png';
+export { default as Rectangle2 } from './Rectangle2.png';
+export { default as Rectangle3 } from './Rectangle3.png';
+export { default as Rectangle169 } from './Rectangle169.png';
+export { default as Screenshot } from './Screenshot.png';
+export { default as WEB_MATERIAL05 } from './WEB_MATERIAL05.svg';
+export { default as WEB_MATERIAL06 } from './WEB_MATERIAL06.svg';
+export { default as WEB_MATERIAL07 } from './WEB_MATERIAL07.svg';
+export { default as WEB_MATERIAL08 } from './WEB_MATERIAL08.svg';
+export { default as WEB_MATERIAL09 } from './WEB_MATERIAL09.svg';
+export { default as WEB_MATERIAL10 } from './WEB_MATERIAL10.svg';
+export { default as WEB_MATERIAL11 } from './WEB_MATERIAL11.svg';

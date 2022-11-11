@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$colorPgrey:rgb(128, 128, 128);
+
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;      
+}
+
+.card-title{
+    margin-top: 1%;
+    color: rgb(235, 22, 22);
+    font-weight: bold;
+    font-size: 3vh; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;  
+}
+
+.card-text{
+    color: $colorPgrey;
+    font-size: 2.5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.main-card-index{
+    margin-top: 2%;
+    display: grid;
+    gap: 0 0.4rem;
+    align-items: center; 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon-card-index{
+    display: flex;
+    gap: 0 0.5rem;
+}
+
+.icon-card-index article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+} 
+
+.icon-card-index article p{
+    color: rgb(99, 97, 97);
+    font-size: 1.5vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;     
+}
+
+.number-area{
+    margin-left: 40%;
+}
+
+.icon-img{
+   width: 2rem;   
+}
+
+.price-index{
+    color: $colorPgrey;
+    font-size: 3.2vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-btn-index{
+   display: flex;
+   flex-direction: row-reverse;
+   text-decoration: none; 
+}
+
+.btn-index{
+    cursor: pointer;
+    width: 8.5rem;
+    height: 2.2rem;  
+    background-color: rgb(255, 255, 255); 
+    color: rgb(235, 22, 22);
+    font-size: 2.5vh;
+    font-weight: bold;    
+    border-radius: 1rem;
+    border: 1px solid rgb(235, 22, 22);;
+}
+
+.btn-index:hover{
+    background-color: rgb(235, 22, 22); 
+    color: rgb(255, 255, 255);     
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .btn-index{    
+        width: 6.5rem;
+        height: 2rem; 
+    }
+
+}

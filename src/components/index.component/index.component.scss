@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$colorPgrey:rgb(128, 128, 128);
+
+.container-index{   
+    padding: 2% 8%;
+    display: grid;    
+    overflow-y: auto;  
+    height: 100vh;    
+}
+
+.header-img-index{
+    display: flex;  
+    margin: 1% 0;
+    width: 10rem;
+}
+
+.main-index{ 
+    position: relative;        
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-img-index{     
+        margin: 1% auto;     
+    }
+}
